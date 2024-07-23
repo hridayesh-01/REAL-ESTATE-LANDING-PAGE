@@ -4,11 +4,11 @@ const FAQS = () => {
   return (
     <div className="px-6 py-4 space-y-8 max-w-screen-lg ml-16">
       <div className="py-5 flex flex-col md:flex-row items-start md:items-center">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 md:mb-0">
+        <h1 className="text-6xl font-bold mb-4 md:mb-0 -ml-10 mr-10">
           Frequently asked <br /> questions
         </h1>
-        <div className="md:ml-28 mt-4 text-gray-500">
-          <p>
+        <div className="mt-4 text-gray-500">
+          <p class="text-xl">
             Service provided by real estate professionals to assist <br /> potential buyers in the process of finding and buying <br />
             residential properties such as houses or apartments.
           </p>
@@ -27,17 +27,17 @@ const FAQS = () => {
         </div>
 
         <div className="w-full md:w-2/4 flex flex-col">
-          <div className="bg-blue-950 text-white rounded-lg p-4 mb-4">
-            <h3 className="text-lg font-semibold">What is included in the home buying service</h3>
+          <div className="bg-blue-950 text-white rounded-lg ml-10 p-4 mb-4">
+            <h3 className="text-lg font-semibold">What is included in the home buying service ?</h3>
             <p className="text-sm text-gray-300 mt-4 mb-4">
               Covering property search, scheduling visits, negotiations, physical and legal inspections of property, as well as assistance to signing deed of sale and purchase at best price especially for first time customers.
             </p>
           </div>
 
-          <div className="space-y-2">
-            <button className="w-full bg-gray-100 hover:bg-gray-200 rounded-lg p-3 mb-2">How long does it take home buying process</button>
-            <button className="w-full bg-gray-100 hover:bg-gray-200 rounded-lg p-3 mb-2">What documents are required for purchase</button>
-            <button className="w-full bg-gray-100 hover:bg-gray-200 rounded-lg p-3 mb-2">Can I cancel transaction if I change my mind</button>
+          <div className="space-y-2 ml-10">
+            <button className="w-full bg-gray-100 hover:bg-gray-200 rounded-lg p-3 mb-2">How long does it take home buying process ?</button>
+            <button className="w-full bg-gray-100 hover:bg-gray-200 rounded-lg p-3 mb-2">What documents are required for purchase ?</button>
+            <button className="w-full bg-gray-100 hover:bg-gray-200 rounded-lg p-3 mb-2">Can I cancel transaction if I change my mind ?</button>
           </div>
         </div>
       </section>

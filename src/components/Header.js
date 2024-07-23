@@ -6,7 +6,7 @@ const Header = () => {
     <header>
       <div className="container flex justify-around items-center px-6 ml-10 py-4">
         <img src={img} class=" h-7"></img>
-        <div className="text-2xl font-bold -ml-48">Real Estate</div>
+        <div className="text-2xl font-bold -ml-28">Real Estate</div>
           <nav>
             <ul className="flex space-x-6">
               <li className="cursor-pointer"><strong>Home</strong></li>

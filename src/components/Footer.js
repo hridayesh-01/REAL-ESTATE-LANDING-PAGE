@@ -13,7 +13,7 @@ const Footer = () => {
                 <div class="flex justify-between items-center py-6">
                     <div class="flex items-center ml-5">
                         <img src={img} class="relative h-7"></img>
-                        <span class="text-xl ml-3 font-bold text-blue-900">Real Estate</span>
+                        <span class="text-xl ml-3 font-bold">Real Estate</span>
                     </div>
                     <div class="hidden md:flex space-x-8">
                             <a href="#" class="hover:text-blue-900">Home</a>
@@ -26,7 +26,6 @@ const Footer = () => {
                         <img src={img1} class="relative h-7"></img>
                         <img src={img2} class="relative h-7"></img>
                         <img src={img3} class="relative h-7"></img>
-
                     </div>
                 </div>
             </div>
